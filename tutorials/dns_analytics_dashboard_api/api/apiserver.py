@@ -55,9 +55,9 @@ def uniqe_ips():
     uniques = list(df['IP'].unique())
     return {"uniqueips":uniques}
 
-@app.get('/data/{bytes}',tags=['data'])
-def subset_by_bytes(b:int):
-    subset = df[df['Bytes'] > b]
+@app.get('/data/{numbytes}',tags=['data'])
+def subset_by_bytes(numbytes:int):
+    subset = df[df['Bytes'] > numbytes]
     subset.index = range(0,len(subset))
     return subset.to_json()
 
