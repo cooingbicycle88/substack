@@ -2,4 +2,4 @@
 
 Associated with post:
 
-[a link](https://schoolofdata.substack.com/p/containerizing-dashboards-and-custom)
+[substack - Containerizing Dashboards and Custom API's](https://schoolofdata.substack.com/p/containerizing-dashboards-and-custom)
